@@ -1,3 +1,11 @@
+###################################################################################################
+# Design Name: Web Scrapping using R
+# Authors: Suhas Yelluru | Viral Patel | Pushkar Ghalaut 
+# Create Date: Nov 2nd 2016 ; 23:35
+# Description: This code retrieves information from an online Journal 
+#              based on the constraint years specified by the user. 
+###################################################################################################
+
 function (start_date, end_date) 
 {
   library(RCurl)
